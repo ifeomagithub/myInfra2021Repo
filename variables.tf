@@ -39,7 +39,7 @@ variable "acl" {
 variable "bucket_prefix" {
     type        = string
     description = "(required since we are not using 'bucket') Creates a unique bucket name beginning with the specified prefix"
-    default     = "terraform-80"
+    default     = "july-dev-tf-state-bucket"
 }
 variable "tags" {
     type        = map
